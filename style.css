@@ -1,0 +1,53 @@
+body {
+    height: 125vh;
+    font-family: Lora;
+    margin-top: 80px;
+    padding: 100px;
+
+    background-color: #EFE7E4;
+    color: #0B062E;
+
+}
+
+header {
+    background-color: #EFE7E4;
+    color: #0B062E;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0;
+    height: 100px;
+    display: flex;
+    align-items: center;
+
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+
+    padding-left: 55px;
+}
+
+
+header * {
+    display: inline;
+}
+
+header li {
+    margin: 20px;
+}
+
+header li a {
+    color: #0B062E;
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color:#168BD7;
+    text-decoration: none;
+  }
+
+
+
+    
+  

@@ -1,0 +1,109 @@
+#hello {
+    width: 209px;
+    height: 104px;
+    
+    font-family: 'PT sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 104px;
+    
+    
+    color: #0B062E;
+    
+    opacity: 0.75;
+}
+
+#intro {
+    width: 1062px;
+    height: 76px;
+    
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 38px;
+    
+    color: #0B062E;
+    
+}
+
+
+#hackP {
+width: 268px;
+height: 65px;
+
+font-family: 'PT Sans Caption';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 65px;
+
+
+color: #0B062E;
+
+}
+
+#hackI { 
+    width: 467px;
+    height: 117px;
+    
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 39px;
+
+    
+    color: #0B062E;
+
+}
+
+
+#veiwP {
+    width: 184px;
+    height: 36px;
+    
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    text-decoration: none;
+
+
+    
+    color: #168BD7;
+    }
+
+#hackUTD {
+    width: 451px;
+    height: 65px;
+    
+    font-family: 'PT Sans Caption';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 65px;
+
+    
+    color: #0B062E;
+    }
+
+#hackutdI {
+    width: 467px;
+    height: 117px;
+    
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 39px;
+
+    color: #0B062E;
+}
+
+
+
+  
+  
