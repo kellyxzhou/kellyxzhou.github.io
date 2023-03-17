@@ -8,9 +8,6 @@
     font-size: 80px;
     line-height: 104px;
     
-    
-    color: #0B062E;
-    
     opacity: 0.75;
 }
 
@@ -26,12 +23,10 @@
 
     margin-bottom: 100px;
     
-    color: #0B062E;
-    
 }
 
 
-#hackP {
+#title {
 width: 268px;
 height: 65px;
 
@@ -41,12 +36,9 @@ font-weight: 400;
 font-size: 50px;
 line-height: 65px;
 
-
-color: #0B062E;
-
 }
 
-#hackI { 
+#dis { 
     width: 467px;
     height: 117px;
     
@@ -56,9 +48,18 @@ color: #0B062E;
     font-size: 30px;
     line-height: 39px;
 
-    
-    color: #0B062E;
+}
 
+#projects {
+  width: 209px;
+  height: 104px;
+  
+  font-family: 'PT sans';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 50px;
+  line-height: 104px;
+  
 }
 
 
@@ -77,33 +78,6 @@ color: #0B062E;
     color: #168BD7;
     }
 
-#hackUTD {
-    width: 451px;
-    height: 65px;
-    
-    font-family: 'PT Sans Caption';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 50px;
-    line-height: 65px;
-
-
-    
-    color: #0B062E;
-    }
-
-#hackutdI {
-    width: 467px;
-    
-    font-family: 'PT Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 39px;
-
-
-    color: #0B062E;
-}
 
 .container {
     display: flex;
@@ -119,6 +93,24 @@ color: #0B062E;
 
   .text {
     padding-right: 200px;
+  }
+
+  #foot {
+    font-family: 'PT sans';
+    font-style: normal;
+    font-weight: 50;
+    font-size: 20px;
+    line-height: 104px;
+    text-align: right;
+    
+    opacity: 0.5;
+  }
+
+  hr {
+    height:3;
+    border-width:3;
+    opacity:.5;
+    color:#0B062E;
   }
 
   
