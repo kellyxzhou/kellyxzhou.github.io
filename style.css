@@ -2,7 +2,7 @@ body {
     height: 125vh;
     font-family: Lora;
     margin-top: 80px;
-    padding: 100px;
+    padding: 150px;
 
     background-color: #EFE7E4;
     color: #0B062E;
@@ -21,7 +21,7 @@ a:link, a:visited {
     top: 0px;
     left: 0;
     right: 0;
-    height: 100px;
+    height: 150px;
     display: flex;
     align-items: center;
     z-index: 5;
@@ -32,7 +32,7 @@ a:link, a:visited {
     font-size: 30px;
     line-height: 45px;
 
-    padding-left: 55px;
+    padding-left: 100px;
   }
 
 .topnav * {

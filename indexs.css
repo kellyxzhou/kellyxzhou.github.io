@@ -9,6 +9,7 @@
     line-height: 104px;
     
     opacity: 0.75;
+    margin-top:100px;
 }
 
 #intro {
@@ -21,10 +22,9 @@
     font-size: 30px;
     line-height: 38px;
 
-    margin-bottom: 100px;
+    margin-bottom: 200px;
     
 }
-
 
 #title {
 width: 268px;
@@ -35,7 +35,6 @@ font-style: normal;
 font-weight: 400;
 font-size: 50px;
 line-height: 65px;
-
 }
 
 #dis { 
@@ -47,33 +46,23 @@ line-height: 65px;
     font-weight: 400;
     font-size: 30px;
     line-height: 39px;
-
 }
 
 #projects {
-  width: 209px;
-  height: 104px;
-  
   font-family: 'PT sans';
   font-style: normal;
   font-weight: 300;
   font-size: 50px;
-  line-height: 104px;
-  
+
 }
 
 
 #veiwP {
-    width: 184px;
-    height: 36px;
-    
     font-family: 'PT Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 28px;
-    line-height: 36px;
     text-decoration: none;
-
 
     color: #168BD7;
     }
@@ -104,6 +93,8 @@ line-height: 65px;
     text-align: right;
     
     opacity: 0.5;
+
+    margin-top: 100;
   }
 
   hr {
