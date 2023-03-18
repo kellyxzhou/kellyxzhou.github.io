@@ -30,7 +30,6 @@ a:link, a:visited {
     font-style: normal;
     font-weight: 600;
     font-size: 30px;
-    line-height: 45px;
 
     padding-left: 100px;
   }
@@ -41,7 +40,6 @@ a:link, a:visited {
   
 .topnav a {
     color: #168BD7;
-    text-align:left;
     padding: 16px;
     text-decoration: none;
 } 
@@ -51,14 +49,10 @@ a:link, a:visited {
   padding:16px;
   color:#0B062E;
 
-  width: 104px;
-  height: 37px;
-
   font-family: 'Lora';
   font-style: normal;
   font-weight: 300;
   font-size: 30px;
-  line-height: 38px;
 
 }
  
