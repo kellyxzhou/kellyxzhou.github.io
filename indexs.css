@@ -1,79 +1,74 @@
 #hello {
-    width: 209px;
-    height: 104px;
-    
-    font-family: 'PT sans';
-    font-style: normal;
     font-weight: 400;
     font-size: 80px;
-    line-height: 104px;
-    
-    opacity: 0.75;
     margin-top:100px;
+
 }
+
+.typing-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input-cursor {
+  display: inline-block;
+  width: 2px;
+  height: 42px;
+  background-color: #393939;
+  margin-left: 8px;
+}
+
+@keyframes blink {
+  0% {opacity: 1;}
+  40% {opacity: 1;}
+  60% {opacity: 0;}
+  100% {opacity: 0;}
+}
+
+.input-cursor { 
+animation: blink .6s linear infinite alternate;
+}
+
 
 #intro {
-    width: 1062px;
-    height: 76px;
-    
-    font-family: 'Lora';
-    font-style: normal;
-    font-weight: 200;
-    font-size: 30px;
-    line-height: 38px;
-
-    margin-bottom: 200px;
-    
-}
-
-#title {
-width: 268px;
-height: 65px;
-
-font-family: 'PT Sans Caption';
-font-style: normal;
-font-weight: 400;
-font-size: 50px;
-line-height: 65px;
-}
-
-#dis { 
-    width: 467px;
-    height: 117px;
-    
-    font-family: 'PT Sans';
-    font-style: normal;
     font-weight: 400;
     font-size: 30px;
-    line-height: 39px;
+
+    margin-bottom: 200px;   
 }
 
 #projects {
-  font-family: 'PT sans';
-  font-style: normal;
-  font-weight: 300;
-  font-size: 50px;
+  font-weight: 500;
+  font-size: 40px;
 
 }
 
+#title {
+font-weight: 500;
+font-size: 40px;
+}
+
+#dis { 
+  font-weight: 200;
+  font-size: 28px;
+}
 
 #veiwP {
-    font-family: 'PT Sans';
-    font-style: normal;
     font-weight: 400;
-    font-size: 28px;
+    font-size: 30px;
     text-decoration: none;
 
     color: #168BD7;
-    }
-
+}
 
 .container {
-    display: flex;
+  margin-bottom: 100px;
+  display: flex;
   }
   
   img {
-    max-width: 100%
+    width: 550px;
+    height: 300px;
   }
   
   .image {
@@ -84,25 +79,6 @@ line-height: 65px;
     padding-right: 200px;
   }
 
-  #foot {
-    font-family: 'PT sans';
-    font-style: normal;
-    font-weight: 50;
-    font-size: 20px;
-    line-height: 104px;
-    text-align: right;
-    
-    opacity: 0.5;
-
-    margin-top: 100;
-  }
-
-  hr {
-    height:3;
-    border-width:3;
-    opacity:.5;
-    color:#0B062E;
-  }
 
   
   

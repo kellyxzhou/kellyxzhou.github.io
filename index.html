@@ -2,74 +2,76 @@
 <html lang="en">
 
 <head>
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8"> 
+    <link rel="stylesheet" href="https://use.typekit.net/cbe5zoi.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Website!</title>
+    <title>Design & Tech | Kelly Zhou</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="indexs.css">
+    <link rel="stylesheet" href="typewrite.js">
 </head>
 
 <body>
-    <header>
-        <div class="topnav">
-        <ul>
-            <li><a href="./index.html">KZ</a></li>
-            <li><a href="./index.html" class="split">Home</a></li>
-            <li><a href="./about.html" class="split">About</a></li>
-        </ul>
-        </div>
-    </header>
 
-    <h id="hello">Hello!</h>
+   <div class="navbar">
+            <a class="nav-left" href="./index.html">KZ</a>
+            <a class="nav-right" href="./index.html" class="split">Home</a>
+            <a class="nav-right" href="./about.html" class="split">About</a>
+    </div>
+        
+    <h id="hello">Hello! </h>
+    <p id="demo"></p>
     <p id= "intro">Welcome I'm Kelly Zhou and I'm currently studying Computer Science at The University of Texas at Dallas.</p>
     
     <h id="projects">Projects</h>
-<hr><br><br><br><br><br>
+    <hr><br><br><br>
     <div class="container">
     <div class="text">
     <h id="title">HackUTD IX</h>
-    <p id="dis" >Largest hackathon in Texas with over 1000+ participants. </p>
-   <p id="veiwP"> <a href="./hackutd.html">View Project >> </a></p>
+    <p id="dis" >Largest hackathon in texas with over 1000+ participants. </p>
+   <p id="veiwP"> <a href="./hackutd.html">view project >> </a></p>
     </div>
     <div>
-       <a href="https://ix.hackutd.co/" target="_blank"><img src ="hackUTD.png"></a>
+        <div class="zoom">
+       <a href="https://ix.hackutd.co/" target="_blank"><img src ="images/hackUTD.png" alt="hackutd"></a>
     </div>
 </div>
+</div>
 
-<br><br><br><br><br><br><br><br>
+
 
 <div class="container">
     <div class="text">
     <h id="title">HackPortal</h>
-    <p id="dis"> A platform for user-friendly hackathon event management.</p>
-   <p id="veiwP"> <a href="./hackPortal.html">View Project >> </a></p> 
+    <p id="dis">A platform for user-friendly hackathon event management.</p>
+   <p id="veiwP"> <a href="./hackPortal.html">view project >> </a></p> 
     </div>
     <div>
-        <a href="https://hackportal-dev.acmutd.co/" target="_blank"><img src ="hackP.png"></a>
+        <div class="zoom">
+        <a href="https://hackportal-dev.acmutd.co/" target="_blank"><img src ="images/hackP.png" alt="hackportal"></a>
         </div>
     </div>
-    <br><br><br>
-   <!-- <div class="container">
+    </div>
+
+
+    <div class="container">
         <div class="text">
         <h id="title">SafeOR</h>
-        <p id="dis"> Using computer vision, ML, and NLP to decrease procedural errors during surgery. SafeOR aims to prevent any mishaps before they even happen.</p>
+        <p id="dis"> Using computer vision, ml, and nlp during surgery, decreasing procedural errors to prevent mishaps before they even happen.</p>
        <br>
-        <p id="veiwP"> <a href="https://devpost.com/software/safeor" target="_blank">View Project >> </a></p>
+        <p id="veiwP"> <a href="https://devpost.com/software/safeor" target="_blank">view project >> </a></p>
         </div>
         <div>
-            <a href="https://devpost.com/software/safeor" target="_blank"><img src ="hackP.png"></a>
-            </div>
-        </div>
-    -->
+            <div class="zoom">
+            <a href="https://devpost.com/software/safeor" target="_blank"><img src ="images/Dashboard.png" alt="safeor"></a>
+    </div>
+</div>
+</div>
 
     <footer>
         <hr>
-       <!--- <div>
-            <button onclick="darkMode()">Darkmode</button>
+     <!--- <div>
+         <button onclick="darkMode()">Darkmode</button>
           </div>
           <script>
             function darkMode() {
@@ -78,7 +80,7 @@
             }
           </script>
         -->
-        <p id="foot">@2023 by Kelly Zhou</p>
+        <p id="foot">©2023 by Kelly Zhou</p>
       </footer>
 
 </body>

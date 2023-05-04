@@ -1,67 +1,93 @@
 body {
     height: 125vh;
-    font-family: Lora;
+    font-family: acumin-pro, sans-serif;
     margin-top: 80px;
     padding: 150px;
 
-    background-color: #EFE7E4;
-    color: #0B062E;
+    background-color: #F2ECE9;
+    color: #393939;
 
 }
 
-a:link, a:visited {
+a {
+    text-decoration: none;
     color:#168BD7;
-    text-decoration: none;
-  }
-  
-.topnav {
-    background-color: #EFE7E4;
-    overflow: hidden;
-    position: fixed;
-    top: 0px;
-    left: 0;
-    right: 0;
-    height: 150px;
-    display: flex;
-    align-items: center;
-    z-index: 5;
-
-    font-family: 'PT Sans';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 30px;
-
-    padding-left: 100px;
   }
 
-.topnav * {
-    display: inline;
-}
-  
-.topnav a {
-    color: #168BD7;
-    padding: 16px;
-    text-decoration: none;
-} 
-  
-.topnav a.split{
-  text-align: right;
-  padding:16px;
-  color:#0B062E;
+  .navbar {
+        display: flex;
+        width: calc(100% - 250px);
+        z-index: 5;
 
-  font-family: 'Lora';
-  font-style: normal;
-  font-weight: 300;
-  font-size: 30px;
+        background-color: #F2ECE9;
+        overflow: hidden;
+        position: fixed;
+        top: 0px;
+        left: 0;
+        height: 30px;
+        font-weight: 300;
+        font-size: 25px;
 
-}
+        padding: 35px;
+        padding-left: 150px;
+        padding-right: 100px;
+      }
+
+      .navbar a {
+        padding-left: 16px;
+        padding-right:30px;
+      }
+
+      .nav-left {
+        flex-grow: 1;
+        font-weight: 600;
+      }
+
+      .nav-right{
+        color:#393939;
+        font-weight: 400;
+        font-size: 25;
+      }
+  
  
 .dark-mode {
     background-color:#0B062E;
     color: white;
 }
 
+#foot {
+  font-style: normal;
+  font-weight: 50;
+  font-size: 20px;
+  line-height: 104px;
+  text-align: right;
+  
+  opacity: 0.7;
 
+  margin-top: 100;
+}
+
+hr {
+  height:2.5px;
+  background-color: #0B062E;
+  width: 100%;
+  border: 0 none;
+  opacity: .5;
+
+  margin-top: 40px;
+}
+
+.zoom { 
+top:-50px; 
+left:-35px; 
+display:block; 
+z-index:999; 
+cursor: pointer; 
+} 
+
+.zoom:hover { 
+transform: scale(1.05); 
+}
 
 
     
