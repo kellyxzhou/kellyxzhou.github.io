@@ -1,33 +1,55 @@
-
-
 .container {
   display: flex;
-  align-items: center;
-  justify-content: center
+  align-items: left;
 }
 
 img {
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
+  margin-top: 50px;
+}
 
+.profile {
   border-radius: 50%;
-
 }
 
 .image {
   flex-basis: 40%
 }
 
+.icons {
+  width: 25px;
+  height: 25px;
+}
+
 .text {
-  font-family: 'PT Sans';
-  font-style: normal;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 20px;
   line-height: 39px;
   float:right;
   padding-left: 100px;
-
-  color: #0B062E;
+  padding-bottom: 0px;
+  color:#393939;
 }
+
+.contact{
+  display: flex;
+  font-weight: 400;
+  font-size: 20px;
+  float:left;
+  padding-right: 100px;
+  align-items: left;
+  color:#393939;
+}
+
+#contactme {
+  font-size:20px;
+  font-weight: 450;
+}
+
+
+
+
+
  
 

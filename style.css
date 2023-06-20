@@ -1,10 +1,9 @@
 body {
-    height: 125vh;
     font-family: acumin-pro, sans-serif;
-    margin-top: 80px;
-    padding: 150px;
+    padding:150px;
+    padding-bottom: 0px;
 
-    background-color: #F2ECE9;
+    background-color: #EFEAE8;
     color: #393939;
 
 }
@@ -19,14 +18,13 @@ a {
         width: calc(100% - 250px);
         z-index: 5;
 
-        background-color: #F2ECE9;
+        background-color: #EFEAE8;
         overflow: hidden;
         position: fixed;
         top: 0px;
         left: 0;
         height: 30px;
-        font-weight: 300;
-        font-size: 25px;
+        font-weight: 200;
 
         padding: 35px;
         padding-left: 150px;
@@ -41,12 +39,13 @@ a {
       .nav-left {
         flex-grow: 1;
         font-weight: 600;
+        font-size: 25px;
       }
 
       .nav-right{
         color:#393939;
         font-weight: 400;
-        font-size: 25;
+        font-size: 20px;
       }
   
  
@@ -61,10 +60,7 @@ a {
   font-size: 20px;
   line-height: 104px;
   text-align: right;
-  
   opacity: 0.7;
-
-  margin-top: 100;
 }
 
 hr {
@@ -73,7 +69,6 @@ hr {
   width: 100%;
   border: 0 none;
   opacity: .5;
-
   margin-top: 40px;
 }
 
