@@ -54,6 +54,13 @@ font-size: 30px;
     padding-right: 200px;
   }
 
+#tag {
+  opacity: 80%;
+  font-size: 20px;
+  line-height: 0;
+  padding-bottom: 15px;
+}
+
 
   
   
