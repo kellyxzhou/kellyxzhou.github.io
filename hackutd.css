@@ -1,24 +1,24 @@
 #hack {
-        font-family: acumin-pro, sans-serif;
-        font-weight: 400;
-        font-size: 30px; 
-}  
-
-#text{
-    font-family: acumin-pro, sans-serif;
-    color:#393939;
-    font-weight: 400;
-    font-size: 20px; 
-}  
-
-#textlight{
   font-family: acumin-pro, sans-serif;
-  color:#756B6C;
   font-weight: 400;
-  font-size: 20px; 
-} 
+  font-size: 30px;
+}
 
-.gallery{
+#text {
+  font-family: acumin-pro, sans-serif;
+  color: #393939;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+#textlight {
+  font-family: acumin-pro, sans-serif;
+  color: #756B6C;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.gallery {
   display: flex;
   flex-wrap: nowrap;
   scroll-snap-type: x mandatory;
@@ -31,7 +31,7 @@
 .gallery::-webkit-scrollbar {
   display: none;
 }
-  
+
 .slider img {
   width: 200px;
   height: 200px;
@@ -46,18 +46,18 @@
 
 #align {
   font-weight: 400;
-  font-size: 20px; 
-  float:right;
+  font-size: 20px;
+  float: right;
   padding-left: 100px;
 }
 
-.pc img{
+.pc img {
   width: 502px;
   height: 334px;
 }
 
 .previous {
-  color:#393939;
+  color: #393939;
 }
 
 .next {
@@ -77,20 +77,20 @@
   background-color: #ddd;
 }
 
-.nextslide{
+.nextslide {
   display: flex;
   align-items: right;
   justify-content: right;
 }
 
-#assets{
-  flex-grow:1;
+#assets {
+  flex-grow: 1;
   font-weight: 400;
   font-size: 20px;
 }
 
-#post{
-  flex-grow:1;
+#post {
+  flex-grow: 1;
   font-weight: 400;
   font-size: 20px;
 }

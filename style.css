@@ -1,57 +1,57 @@
 body {
-    font-family: acumin-pro, sans-serif;
-    padding:150px;
-    padding-bottom: 0px;
+  font-family: acumin-pro, sans-serif;
+  padding: 150px;
+  padding-bottom: 0px;
 
-    background-color: #EFEAE8;
-    color: #393939;
+  background-color: #EFEAE8;
+  color: #393939;
 
 }
 
 a {
-    text-decoration: none;
-    color:#168BD7;
-  }
+  text-decoration: none;
+  color: #168BD7;
+}
 
-  .navbar {
-        display: flex;
-        width: calc(100% - 250px);
-        z-index: 5;
+.navbar {
+  display: flex;
+  width: calc(100% - 250px);
+  z-index: 5;
 
-        background-color: #EFEAE8;
-        overflow: hidden;
-        position: fixed;
-        top: 0px;
-        left: 0;
-        height: 30px;
-        font-weight: 200;
+  background-color: #EFEAE8;
+  overflow: hidden;
+  position: fixed;
+  top: 0px;
+  left: 0;
+  height: 30px;
+  font-weight: 200;
 
-        padding: 35px;
-        padding-left: 150px;
-        padding-right: 100px;
-      }
+  padding: 35px;
+  padding-left: 150px;
+  padding-right: 100px;
+}
 
-      .navbar a {
-        padding-left: 16px;
-        padding-right:30px;
-      }
+.navbar a {
+  padding-left: 16px;
+  padding-right: 30px;
+}
 
-      .nav-left {
-        flex-grow: 1;
-        font-weight: 600;
-        font-size: 25px;
-      }
+.nav-left {
+  flex-grow: 1;
+  font-weight: 600;
+  font-size: 25px;
+}
 
-      .nav-right{
-        color:#393939;
-        font-weight: 400;
-        font-size: 20px;
-      }
-  
- 
+.nav-right {
+  color: #393939;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+
 .dark-mode {
-    background-color:#0B062E;
-    color: white;
+  background-color: #0B062E;
+  color: white;
 }
 
 #foot {
@@ -64,7 +64,7 @@ a {
 }
 
 hr {
-  height:2.5px;
+  height: 2.5px;
   background-color: #0B062E;
   width: 100%;
   border: 0 none;
@@ -72,18 +72,14 @@ hr {
   margin-top: 40px;
 }
 
-.zoom { 
-top:-50px; 
-left:-35px; 
-display:block; 
-z-index:999; 
-cursor: pointer; 
-} 
-
-.zoom:hover { 
-transform: scale(1.05); 
+.zoom {
+  top: -50px;
+  left: -35px;
+  display: block;
+  z-index: 999;
+  cursor: pointer;
 }
 
-
-    
-  
+.zoom:hover {
+  transform: scale(1.05);
+}
