@@ -14,13 +14,17 @@ img {
 }
 
 .image {
-  flex-basis: 40%
+  display: flex;
+  flex-basis: 40%;
+
 }
 
-.icons {
+#icons {
   width: 25px;
   height: 25px;
+  margin-top: 0px;
 }
+
 
 .text {
   font-weight: 400;
@@ -29,20 +33,20 @@ img {
   float: right;
   padding-left: 100px;
   padding-bottom: 0px;
-  color: #393939;
 }
 
-.contact {
-  display: flex;
-  font-weight: 400;
-  font-size: 20px;
-  float: left;
-  padding-right: 100px;
-  align-items: left;
+#contact {
+  font-size: 18px;
+  padding-left: 10px;
   color: #393939;
 }
 
 #contactme {
   font-size: 20px;
   font-weight: 450;
+}
+
+.contacts {
+  display: flex;
+  align-items: center;
 }
