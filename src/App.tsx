@@ -1,24 +1,17 @@
+// Root App.tsx
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Home from './components/Home';
+import Hero from './components/Hero';
 import About from './components/About';
-import Projects from './components/Projects';
-import Contact from './components/Contact';
-import './styles.css';
+import Products from './components/Products';
 import Navbar from './components/Navbar';
 
-const App: React.FC = () => {
-    return (
-        <Router>
-            <Navbar />
-            <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/about" element={<About />} />
-                <Route path="/projects" element={<Projects />} />
-                <Route path="/contact" element={<Contact />} />
-            </Routes>
-        </Router>
-    );
-};
-
-export default App;
+export default function App(): JSX.Element {
+  return (
+    <div className="font-sans bg-[#F7F7F7] text-gray-800">
+      <Navbar />
+      <Hero />
+      <About />
+      <Products />
+    </div>
+  );
+}
