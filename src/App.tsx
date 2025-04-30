@@ -8,7 +8,7 @@ import AboutPage from './pages/About';
 export default function App(): JSX.Element {
   return (
     <Router>
-      <div className="font-sans bg-[#F7F7F7] text-gray-800">
+      <div className="font-sans bg-[#FAF9F6] min-h-screen">
         <Navbar />
         <Routes>
           <Route path="/" element={<HomePage />} />

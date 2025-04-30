@@ -1,16 +1,16 @@
 import React from 'react';
 import Hero from '../components/Hero';
-import Projects from '../components/Projects';
+import About from '../components/About';
+import Works from '../components/Works';
 import Contact from '../components/Contact';
 
-const HomePage: React.FC = () => {
+export default function Home(): JSX.Element {
   return (
-    <div className="min-h-screen">
+    <div className="bg-cream">
       <Hero />
-      <Projects />
+      <About />
+      <Works />
       <Contact />
     </div>
   );
-};
-
-export default HomePage; 
+} 

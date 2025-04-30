@@ -4,21 +4,24 @@ import { Link } from 'react-router-dom';
 
 export default function Navbar(): JSX.Element {
   return (
-    <nav className="fixed w-full bg-white z-50">
-      <div className="container mx-auto px-6 py-4">
-        <div className="flex justify-between items-center">
-          {/* Logo */}
-          <Link to="/" className="text-2xl font-bold text-gray-800">
-            KZ
+    <nav className="fixed w-full z-50 pt-8">
+      <div className="max-w-5xl mx-auto px-8">
+        <div className="flex flex-col items-center space-y-6">
+          <Link to="/" className="text-lg font-light tracking-widest text-gray-800">
+            Kelly Zhou
           </Link>
-
-          {/* Navigation Links */}
-          <div className="flex space-x-8">
-            <Link to="/" className="text-gray-700 hover:text-blue-600 transition-colors">
+          <div className="flex space-x-12">
+            <Link to="/" className="text-xs font-light text-gray-600 hover:text-gray-900 transition-colors tracking-wider">
               Home
             </Link>
-            <Link to="/about" className="text-gray-700 hover:text-blue-600 transition-colors">
+            <Link to="/portfolio" className="text-xs font-light text-gray-600 hover:text-gray-900 transition-colors tracking-wider">
+              Portfolio
+            </Link>
+            <Link to="/about" className="text-xs font-light text-gray-600 hover:text-gray-900 transition-colors tracking-wider">
               About
+            </Link>
+            <Link to="/works" className="text-xs font-light text-gray-600 hover:text-gray-900 transition-colors tracking-wider">
+              Works
             </Link>
           </div>
         </div>

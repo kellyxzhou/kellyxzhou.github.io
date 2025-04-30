@@ -1,6 +1,93 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+:root {
+  --color-cream: #FAF9F6;
+  --color-text: #333333;
+  --color-text-secondary: #666666;
+}
+
+/* Base styles */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;
+  background-color: var(--color-cream);
+  color: var(--color-text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
+  letter-spacing: 0.1em;
+}
+
+/* Custom utilities */
+.writing-vertical-rl {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom container width */
+.max-w-5xl {
+  max-width: 64rem;
+}
+
+/* Image styles */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Navigation dots */
+.nav-dot {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: #D1D5DB;
+}
+
+/* Transitions */
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+}
+
+/* Custom spacing utilities */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* Image grid styles */
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  padding: 2rem 0;
+}
+
+.image-grid img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  transition: opacity 0.3s ease;
+}
+
+.image-grid img:hover {
+  opacity: 0.8;
 }
 
 .parallax-bg {
@@ -21,7 +108,6 @@ body {
     z-index: -1; /* Position it behind content */
 }
 
-
 /* Optional: Keyframes for color transitions - not used in this case, but kept for reference */
 @keyframes scroll {
     0% {
@@ -30,4 +116,54 @@ body {
     100% {
         background-position: 0 100%;
     }
+}
+
+/* Image hover effects */
+.image-hover {
+  overflow: hidden;
+}
+
+.image-hover img {
+  transition: transform 0.5s ease;
+}
+
+.image-hover:hover img {
+  transform: scale(1.05);
+}
+
+/* Section spacing */
+section {
+  padding: 6rem 0;
+}
+
+/* Container */
+.container-custom {
+  max-width: 64rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* Works grid hover effects */
+.works-grid {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.works-grid:hover > *:not(:hover) {
+  opacity: 0.7;
+}
+
+/* Image hover transition */
+.image-scale {
+  transform-origin: center;
+  transition: transform 0.7s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.image-scale:hover {
+  transform: scale(1.05);
+}
+
+/* Smooth text transitions */
+.text-hover {
+  transition: color 0.3s ease;
 }
